@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Your Website Name
+        </title>
+
+        <!-- Tags for Browser rendering -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- SEO Meta tags -->
+        <meta name="description" content="......." />
+        <meta name="keywords" content="..............." />
+        <meta name="author" content=".........." />
+
+        <!-- Open Graph for Social Sharing -->
+        <meta property="og:title" content="Your Website name" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://websitename.com" />
+        <meta property="og:image" content="https://dummyimage.com/600x400/000/fff" />
+
+        <!-- meta images -->
+        <link href="/assets/favicon.ico" type="image/x-icon" />
+
+        <!-- styles -->
+        <link href="styles/reset.css" rel="stylesheet" />
+        <link href="styles/global.css" rel="stylesheet" />
+        <link href="/style" rel="stylesheet" />
+
+        <!-- Scripts -->
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "Organization",
+                "name": "Website Name",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Mossel Bay, South Africa",
+                    "postalCode": "6500",
+                    "streetAddress": "Mossel Bay"
+                },
+                "email": "mailto:info",
+                "image": "https://dummyimage.com/600x400/000/fff",
+                "telephone": "+27 76 012 3456",
+                "url": "http://website.org.za"
+            }
+        </script>
+    </head>    
+    <body>
+        <header>
+            <a href="#" class="logo">Website Title</a>
+
+            <input type="checkbox" id="menu-bar">
+            <label for="menu-bar">Menu</label>
+
+            <nav class="navbar">
+                <ul class="navList">
+                    <!-- <li class="navItem"><a href="#" class="navLink">home</a></li> -->
+                    <li class="navItem"><a href="#" class="navLink">our members</a></li>
+                    <li class="navItem"><a href="#" class="navLink">events</a>
+                        <ul class="dropDownList">
+                            <li class="dropDownItem"><a href="#" class="navLink">network events</a></li>
+                            <li class="dropDownItem"><a href="#" class="navLink">other events</a></li>
+                        </ul>
+                    </li>
+                    <li class="navItem"><a href="#" class="navLink">our members +</a>
+                        <ul class="dropDownList">
+                            <li class="dropDownItem"><a href="#" class="navLink">bookkeepers</a></li>
+                            <li class="dropDownItem"><a href="#" class="navLink">flex gallery</a></li>
+                            <li class="dropDownItem"><a href="#" class="navLink">bookkeepers +</a>
+                                <ul class="secondDropDownList">
+                                    <li class="secondDropDownItem"><a href="#" class="navLink">Bookkeeping One</a></li>
+                                    <li class="secondDropDownItem"><a href="#" class="navLink">Bookkeeping Two</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navItem"><a href="#" class="navLink">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main></main>
+
+        <footer></footer>
+    </body>
+</html>
